@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Asociaciones de cultivos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="ubicacionTitulo"><h1 class="tituloSitio">Asociaciones de cultivos para plantas de huerta</h1></div>
+
+    <label class="ingresoSolicitud" for="planta">Ingrese el nombre de una especie de planta de huerta:</label>
+
+    <!--label o etiqueta es un texto que va asociado a un control con el que puede interactuar un usuario-->
+
+    <input type="text" id="planta" name="planta"><br><br>
+    <!--input captura datos desde el teclado, para luego introducirlos en una variable-->
+
+    <button onclick="buscarAsociaciones()">Buscar asociaciones</button><br><br>
+    <!--button es un elemento que crea botones marcadores-->
+
+    <div id="resultado"></div>
+    <script src="plantitas.js"></script>
+  </body>
+</html>
